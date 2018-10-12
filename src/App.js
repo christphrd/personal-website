@@ -18,8 +18,8 @@ class App extends Component {
           <header className="App-header">
             <h1 className="App-title">Christopher Diep</h1>
             <h4>software engineer</h4>
-            <NavBar />
           </header>
+          <NavBar />
           <div className="App-content">
             <Switch>
               <Route path='/contact' component={Contact} />

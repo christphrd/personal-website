@@ -1,14 +1,15 @@
 import React from 'react';
 
 import {NavLink} from 'react-router-dom';
+import Emoji from './Emoji';
 
 
 const NavBar = () => {
     return (
-        <nav>
-            <NavLink to='/about'>About</NavLink>
-            <NavLink to='/work'>Work</NavLink>
-            <NavLink to='/contact'>Contact</NavLink>
+        <nav className='nav-bar'>
+            <NavLink to='/about' className='nav-link'><Emoji label='smiley' symbol='🙂'/> About</NavLink>
+            <NavLink to='/work' className='nav-link'><Emoji label='computer' symbol='💻'/> Work</NavLink>
+            <NavLink to='/contact' className='nav-link'a><Emoji label='chat-bubble' symbol='💬' /> Contact</NavLink>
         </nav>
     )
 }

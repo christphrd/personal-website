@@ -2,9 +2,9 @@
   text-align: center;
 }
 
-.App-header, .App-footer {
+.App-header {
   background-color: #0B93F6;
-  height: 150px;
+  height: 100px;
   padding: 20px;
   color: white;
   border-radius:25px;
@@ -15,7 +15,51 @@
 }
 
 body {
-  background-color:#E5E5EA;
+  background-color:white;
   font-family: "Helvetica Neue";
   font-weight: normal;
+}
+
+.nav-bar {
+  background-color: #E5E5EA;
+  height: 30px;
+  color: black;
+  border-radius:25px;
+}
+
+.nav-link {
+  padding: 5px;
+  color: darkgray;
+  text-decoration: none;
+}
+
+.active {
+  color: black;
+}
+
+.App-content {
+  background-color: #0B93F6;
+  height: 100px;
+  padding: 20px;
+  color: white;
+  border-radius:25px;
+}
+
+.App-footer {
+  background-color: #E5E5EA;
+  height: 100px;
+  padding: 20px;
+  color: black;
+  border-radius: 25px;
+}
+
+.footer-logo {
+  max-width: 35px;
+  max-height: 35px;
+  padding: 5px;
+}
+
+.footer-logo:hover {
+  background-color: white;
+  border-radius: 5px;
 }
