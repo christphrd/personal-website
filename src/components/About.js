@@ -1,6 +1,6 @@
 import React from 'react';
 
-import blueSuit from '../img/blue-suit.jpg'
+//import blueSuit from '../img/blue-suit.jpg'
 
 class About extends React.Component {
     componentDidMount() {
